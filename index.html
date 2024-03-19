@@ -10,7 +10,7 @@
     <input id="tData">
     <select id="measure">
         <option id="MB">MB</option>
-        <option id="GB">GB</option>
+        <option id="GB" selected>GB</option>
         <option id="TB">TB</option>
     </select>
     <button id="calBtn" onclick="calculateDataCost()">계산</button>
@@ -48,9 +48,9 @@
       case "MB":
         return data;
       case "GB":
-        return data * 1000;
+        return data * 1024;
       case "TB":
-        return data * 1000000;
+        return data * 1024 * 1024;
       default:
         return 0;
     }
