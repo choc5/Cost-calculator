@@ -18,13 +18,13 @@
     align-items: center;
     justify-content: center;
     gap: 5px;
-    border: 2px solid lightgray;
     text-align: center;
 }
 
 #tData{
     box-sizing: border-box;
     border-radius: 10px;
+    border: 2px solid lightgray;
     padding: 10px;
     width: 80%;
 }
